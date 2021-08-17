@@ -1,0 +1,8 @@
+footer.footer {
+  background-color: var(--primary-color-light);
+  padding: 30px 0;
+}
+.footer p {
+  text-align: center;
+  color: rgb(31, 30, 30);
+}

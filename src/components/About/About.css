@@ -1,0 +1,53 @@
+.about {
+  margin-bottom: 30px;
+}
+
+.about .about-head {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about .benefits-wrapper {
+  display: flex !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about .benefit {
+  width: 300px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.about .benefit-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.about .benefit-head p:first-child {
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .benefit-head p:last-child {
+  margin-left: 10px;
+  font-size: 1.4rem;
+}
+.about .benefit .content {
+  margin-left: 35px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: 1.3rem;
+}
